@@ -14,7 +14,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* YDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YDAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* YDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YDViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +23,9 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		935FA0021795165F849BEA81 /* Pods_YDNetwork_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF15F8C44AA3673B1449FBE5 /* Pods_YDNetwork_Example.framework */; };
+		FDC5AFBD256D0AC500A86F70 /* YDURL.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC5AFB9256D0AC500A86F70 /* YDURL.m */; };
+		FDC5AFBE256D0AC500A86F70 /* YDNetworkRequestBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC5AFBC256D0AC500A86F70 /* YDNetworkRequestBase.m */; };
+		FDC5AFC5256D0AE500A86F70 /* YDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC5AFC3256D0AE500A86F70 /* YDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D77BC28FE2BEA950A290A34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4028782E5914ABB53287BC8D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1D77BC28FE2BEA950A290A34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4028782E5914ABB53287BC8D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YDNetwork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDNetwork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,8 +51,6 @@
 		6003F59B195388D20070C39A /* YDNetwork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDNetwork-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* YDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* YDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* YDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* YDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* YDNetwork_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDNetwork_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,8 +65,14 @@
 		A83499C2B9D24BC36F3AE078 /* Pods-YDNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDNetwork_Example.release.xcconfig"; path = "Target Support Files/Pods-YDNetwork_Example/Pods-YDNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AF15F8C44AA3673B1449FBE5 /* Pods_YDNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC479E8A9599A62C6ED74587 /* Pods-YDNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDNetwork_Tests.release.xcconfig"; path = "Target Support Files/Pods-YDNetwork_Tests/Pods-YDNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D1B771FD0DC55A8BC5AB2119 /* YDNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YDNetwork.podspec; path = ../YDNetwork.podspec; sourceTree = "<group>"; };
+		D1B771FD0DC55A8BC5AB2119 /* YDNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDNetwork.podspec; path = ../YDNetwork.podspec; sourceTree = "<group>"; };
 		F3FC5CEBB36EB6B53C37E099 /* Pods-YDNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDNetwork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YDNetwork_Tests/Pods-YDNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDC5AFB9256D0AC500A86F70 /* YDURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDURL.m; sourceTree = "<group>"; };
+		FDC5AFBA256D0AC500A86F70 /* YDURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDURL.h; sourceTree = "<group>"; };
+		FDC5AFBB256D0AC500A86F70 /* YDNetworkRequestBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNetworkRequestBase.h; sourceTree = "<group>"; };
+		FDC5AFBC256D0AC500A86F70 /* YDNetworkRequestBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDNetworkRequestBase.m; sourceTree = "<group>"; };
+		FDC5AFC3256D0AE500A86F70 /* YDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDViewController.m; sourceTree = "<group>"; };
+		FDC5AFC4256D0AE500A86F70 /* YDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,11 +138,15 @@
 		6003F593195388D20070C39A /* Example for YDNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				FDC5AFBB256D0AC500A86F70 /* YDNetworkRequestBase.h */,
+				FDC5AFBC256D0AC500A86F70 /* YDNetworkRequestBase.m */,
+				FDC5AFBA256D0AC500A86F70 /* YDURL.h */,
+				FDC5AFB9256D0AC500A86F70 /* YDURL.m */,
 				6003F59C195388D20070C39A /* YDAppDelegate.h */,
 				6003F59D195388D20070C39A /* YDAppDelegate.m */,
+				FDC5AFC4256D0AE500A86F70 /* YDViewController.h */,
+				FDC5AFC3256D0AE500A86F70 /* YDViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* YDViewController.h */,
-				6003F5A6195388D20070C39A /* YDViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +203,6 @@
 				F3FC5CEBB36EB6B53C37E099 /* Pods-YDNetwork_Tests.debug.xcconfig */,
 				CC479E8A9599A62C6ED74587 /* Pods-YDNetwork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +268,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -390,7 +400,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YDAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* YDViewController.m in Sources */,
+				FDC5AFC5256D0AE500A86F70 /* YDViewController.m in Sources */,
+				FDC5AFBE256D0AC500A86F70 /* YDNetworkRequestBase.m in Sources */,
+				FDC5AFBD256D0AC500A86F70 /* YDURL.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
