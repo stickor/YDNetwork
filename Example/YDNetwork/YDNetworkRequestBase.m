@@ -7,7 +7,7 @@
 //
 
 #import "YDNetworkRequestBase.h"
-#import <YDNetworking/YDNetworkHelper.h>
+#import "YDNetworkHelper.h"
 #import "YDURL.h"
 
 @implementation YDNetworkRequestBase
